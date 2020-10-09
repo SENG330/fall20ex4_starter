@@ -1,3 +1,5 @@
+![Java CI with Gradle](https://github.com/SENG330/fall20ex4_starter/workflows/Java%20CI%20with%20Gradle/badge.svg)
+
 Please read thru the [overall exercises overview](https://github.com/SENG330/course/blob/master/exercises/Exercises.md).
 
 ## Exercise 4
