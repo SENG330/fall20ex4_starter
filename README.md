@@ -7,7 +7,7 @@ In this exercise we will begin to think about what to do with error conditions i
 
 
 1. Building on the work from Ex3, correct the code based on the TA feedback. 
-2. 
+2. Let's use the scenario of an experienced biologist observing whale behavior from East Point on Saturna Island
  3. 
 
 ### Notes:
@@ -19,9 +19,9 @@ In this exercise we will begin to think about what to do with error conditions i
 - code review
 
 ### Deliverables
-
+* a wireframe or sketch showing the app user interface.
 * The State diagram that represents the states the app can take.
-* The ADR 
+* The ADR
 * Code, showing Optionals, 
  
 ## Due
