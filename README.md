@@ -1,36 +1,28 @@
 Please read thru the [overall exercises overview](https://github.com/SENG330/course/blob/master/exercises/Exercises.md).
 
 ## Exercise 4
-1. Building on the work from Ex2, correct the code based on the TA feedback. 
-2. Expand your code to show how we can:
-    1. search through a
- list of whale observations, and 
-    2. sort that list. 
-3. Implement two different strategies for searching and two different strategies for sorting. Cf. page 54. 
-4. Create a comparator (page 48) for whales. In your ADR document why the approach you chose is preferable over the
- other 2 approaches discussed in the book.
- 3. Draw a Class diagram to show the structure of your solution. 
+In this exercise we will begin to think about what to do with error conditions in our system, and the possible states our system can be in. You will sketch out the user interface for the observation reporting system and the states it can be in. Since these observations are in the field, we need to ensure our observations can be partially recorded and then reconciled later, when the observer returns to a more stable internet connection.
+
+
+1. Building on the work from Ex3, correct the code based on the TA feedback. 
+2. 
+ 3. 
 
 ### Notes:
-- the search/sort happen in memory. In practice this might be dangerous, if we had a huge number of objects and
- limited RAM.
- - Do NOT write your own search/sort algorithms. There are plenty in the Java standard library. Except for undergrad
-  (225/226/320 etc), it would be a rare thing for a programmer to improve on the JDK implementations.
- 
+
+
 ### Learning Objectives
-- Fix code following the TA's code review.
-- Learn to draw a basic class diagram.
-- Use Iterator, strategy patterns in context.
-- Use a Function object
+
+- object state, singleton, optional types
+- code review
 
 ### Deliverables
 
-* An ADR capturing the class diagram and explaining the rationale. 
-* Source code implementing the class diagram. Your source code must contain JUnit tests that show: 
-    - a successful execution of the iterator and 
-    - strategy patterns.
-Capture your important decisions in the ADR template.
-
+* The State diagram that represents the states the app can take.
+* The ADR 
+* Code, showing Optionals, 
+ 
 ## Due
-- We will mark the last commit made before **September 25 at 11:59pm**. If that last commit was a mess, let us know. Make sure your code compiles!
-- By midnight September 27, submit your team peer review form (link to follow). We will discuss the peer rating form in class.
+- We will mark the last commit made before **October 16 at 11:59pm**. If that last commit was a mess, let us know. Make
+ sure your code compiles!
+- By midnight Oct 18, submit your team peer review form (link to follow).
