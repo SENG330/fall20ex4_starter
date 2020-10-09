@@ -9,6 +9,8 @@ public class Driver {
     }
 
     public static void main(String[] args) {
-        System.out.println(new Driver().getGreeting());
+
+      System.out.println(new Driver().getGreeting());
+      Singleton s = Singleton.getInstance();
     }
 }
